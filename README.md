@@ -50,11 +50,13 @@ customer_churn_prediction/
 
 |
 
-├── app.py                     # The main Streamlit web application
+├── eda.ipynb                                 # Exploratory Data Analysis with Visualizations 📊
 
-├── requirements.txt           # Project dependencies
+├── app.py                                    # The main Streamlit web application
 
-└── README.md                  # This file
+├── requirements.txt                          # Project dependencies
+
+└── README.md                                 # This file
 
 # 🚀 Getting Started
 

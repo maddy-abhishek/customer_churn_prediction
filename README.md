@@ -21,32 +21,52 @@ This project demonstrates a complete end-to-end machine learning workflow for pr
 The project is organized in a clean and logical manner to separate concerns.
 
 customer_churn_prediction/
+
 |
+
 ├── data/
+
 │   └── WA_Fn-UseC_-Telco-Customer-Churn.csv
+
 |
+
 ├── saved_models/
+
 │   └── best_churn_model.pkl
+
 |
+
 ├── src/
+
 │   ├── __init__.py
+
 │   ├── data_preprocessing.py
+
 │   ├── feature_engineering.py
+
 │   ├── model_training.py
+
 │   └── predict.py
+
 |
+
 ├── app.py                     # The main Streamlit web application
+
 ├── requirements.txt           # Project dependencies
+
 └── README.md                  # This file
 
 # 🚀 Getting Started
 
 1. Create and activate a virtual environment (recommended):
-    python -m venv venv
-    venv\Scripts\activate
+   
+    - python -m venv venv
+      
+    - venv\Scripts\activate
 
-2. Install the required dependencies:
-     pip install -r requirements.txt
+3. Install the required dependencies:
+   
+    - pip install -r requirements.txt
 
 # 🏃‍♂️ How to Run
 
